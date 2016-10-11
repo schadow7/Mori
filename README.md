@@ -18,12 +18,12 @@ Plan:
       
       Week 5: Combine two created application to multiplayer game.
       
-      Week 6: Creating interface.
+      Week 6: Creating interface graphic interface.
 
       Week 7: Add another game - ships.
       
       Week 8: Add another game - Go.
       
-      Week 9: Finishing project, adding graphics etc.
+      Week 9: Finishing project, testing, eliminating  bugs
 
       
