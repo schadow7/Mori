@@ -14,7 +14,9 @@ MySql would be used for creating data base.
 PHP to communicate webiste with server.
 
 Technologies: HTML,CSS,JavaScript,PHP,MySQL
+
 Plan:
+
   Week 1: Acquainting with technologies: HTML, CSS, JavaScript, PHP and MySQL.
 
   Week 2: Creating simple website using HTML and CSS.
