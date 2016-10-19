@@ -2,6 +2,12 @@
 <?php
 	
 	session_start();
+
+	if(isset($_SESSION['zalogowany'])&&($_SESSION['zalogowany']==true))
+	{
+		$_SESSION['blad']="Najpierw się wyloguj";
+		header('Location: index.php');
+	}
 	
 	if(isset($_POST['email']))
 	{
@@ -200,13 +206,25 @@
 		</div>
 		<div id="containerR">
 			<div class="square" style="background-color:#b5571d;">
-				<div id="logging"><form>
-				<input type="text">
-				<br/><br/>
-				<input type="password">
-				<br/><br/>
-				<input type="submit" value="Zaloguj się">
-				</form></div>
+				<div id="logging"><?php
+					if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
+					{
+						echo '<div align="center"><img src='.$_SESSION['avatar'].' style="height: 40%;width: 40%;"><br/>'.$_SESSION['nick'].'</div>';
+						echo '<form action="loguot.php"><input type="submit" value="Logout"></form>';
+					}
+					else
+					{
+						echo '<form action="singin.php" method="post">
+								<input type="text" name="login">
+								<br/><br/>
+								<input type="password" name="haslo">
+								<br/><br/>
+								<input type="submit" value="Sign in">
+								</form>';
+								if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+					}
+					?>
+			</div>
 			</div>
 			<div class="square" style="background-color:#be9295;">
 			<a href="https://github.com/schadow7/Mori"><i class="icon-git-squared"></i></a>

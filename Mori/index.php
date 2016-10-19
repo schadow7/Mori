@@ -49,6 +49,8 @@
 					{
 						echo '<div align="center"><img src='.$_SESSION['avatar'].' style="height: 40%;width: 40%;"><br/>'.$_SESSION['nick'].'</div>';
 						echo '<form action="loguot.php"><input type="submit" value="Logout"></form>';
+						if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+						unset($_SESSION['blad']);
 					}
 					else
 					{
@@ -60,9 +62,10 @@
 								<input type="submit" value="Sign in">
 								</form>';
 								if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+								unset($_SESSION['blad']);
 					}
 					?>
-</div>
+				</div>
 			</div>
 			<div class="square" style="background-color:#be9295;">
 			<a href="https://github.com/schadow7/Mori"><i class="icon-git-squared"></i></a>
