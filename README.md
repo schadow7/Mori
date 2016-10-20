@@ -1,5 +1,19 @@
 # Mori
 
+
+XAMP
+"localhost"
+"root"
+""
+"mori"
+
+tabela:
+users (id (primarykey),nick,password,email,punkty,rank,avatar)
+
+
+
+
+
 Plan of project of Adrian Dratwiński and Piotr Machura.
 Title: Mori
 
