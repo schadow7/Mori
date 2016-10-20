@@ -2,12 +2,17 @@
 
 
 XAMP
+
 "localhost"
+
 "root"
+
 ""
+
 "mori"
 
 tabela:
+
 users (id (primarykey),nick,password,email,punkty,rank,avatar)
 
 
