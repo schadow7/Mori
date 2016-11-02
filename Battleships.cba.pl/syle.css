@@ -1,0 +1,126 @@
+body
+{
+	background-color:#000000;
+	color:lightgray;
+	font-size:28px;
+	}
+	
+	#pojemink
+	{
+		width:900x;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#tytul
+	{
+		width:900x;
+		margin-top:50px;
+		margin-bottom:50px;
+		text-align:center;
+		font-size:40px;
+		min-height:60px;
+	}
+	
+	
+	#plansza
+	{
+		float: left;
+		width:600px;
+		text-align:center;
+		min-height:600px;
+		margin-left:200px;
+	}
+	
+	
+		#ponownagra
+	{
+		float: left;
+		width:200px;
+		text-align:left;
+		min-height:200px;
+		margin-left:auto;
+		margin-right:auto;
+		color:orange;
+	}
+	
+	#gracz
+	{
+		float: left;
+		width:300px;
+		text-align:left;
+		min-height:600px;
+		margin-left:auto;
+		margin-right:auto;
+		color:orange;
+	}
+		#wynik
+	{
+		float: left;
+		width:1000px;
+		text-align:center;
+		min-height:100px;
+		margin-left:auto;
+		margin-right:auto;
+		color:orange;
+	}
+	
+	.kwadrat
+	{
+		width:180px;
+		height:180px;
+		text-align:center;
+		padding:5px;
+		border:5px solid gray;
+		float: left;
+	}
+	
+	.kwadrat:hover
+	{background-color:#222222;
+	color:orange;
+	border:5px solid;
+	cursor:pointer;
+	}
+	
+		.kwadrat1
+	{
+		width:180px;
+		height:180px;
+		text-align:center;
+		color:orange;
+		float: left;
+		font-size:150px;
+		cursor:default;
+	}
+	
+			.kwadrat2
+	{
+		width:180px;
+		height:180px;
+		text-align:center;
+		float: left;
+		font-size:150px;
+		color:red;
+		cursor:default;
+	}
+	
+			.jeszczeraz
+	{
+		width:180px;
+		height:100px;
+		text-align:center;
+		float: left;
+		font-size:40px;
+		color:orange;
+		border-radius:10px;
+		border:5px solid;
+	}
+	
+		.jeszczeraz:hover
+	{background-color:#222222;
+	color:orange;
+	border:5px solid;
+	cursor:pointer;
+	}
+	
+	
